@@ -37,6 +37,11 @@ const CONFIG = {
       url: "https://whatsapp.com/channel/0029Vb6Gpnm9hXFFfu8gXd3y"
     },
     {
+      icon: "fa-globe",
+      title: "ORDER WEB",
+      url: "https://wa.me/6281927572561"
+    }
+    {
       icon: "fa-star",
       title: "TESTIMONI BUYER",
       url: "https://whatsapp.com/channel/0029Vb6wKUfHgZWW6sj5mf3L"
