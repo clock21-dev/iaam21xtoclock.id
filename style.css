@@ -1,0 +1,392 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#050505;
+    color:white;
+    overflow-x:hidden;
+    min-height:100vh;
+    position:relative;
+}
+
+/* OVERLAY */
+.overlay{
+    position:fixed;
+    inset:0;
+    background:
+    linear-gradient(to bottom,
+    rgba(0,0,0,.3),
+    rgba(0,0,0,.85));
+    z-index:-1;
+}
+
+/* BACKGROUND ANIME */
+.anime-left,
+.anime-right{
+    position:fixed;
+    top:0;
+    width:50%;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    opacity:.28;
+    filter:brightness(.7);
+    z-index:-2;
+}
+
+.anime-left{
+    left:0;
+    background-image:url("./assets/luffy.png");
+}
+
+.anime-right{
+    right:0;
+    background-image:url("./assets/zoro.png");
+}
+
+/* RED GLOW */
+body::before{
+    content:'';
+    position:fixed;
+    width:500px;
+    height:500px;
+    background:red;
+    border-radius:50%;
+    filter:blur(180px);
+    opacity:.18;
+    top:-100px;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:-2;
+}
+
+/* CONTAINER */
+.container{
+    width:100%;
+    max-width:500px;
+    margin:auto;
+    padding:40px 20px;
+    text-align:center;
+}
+
+/* LOGO */
+.logo-box img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:3px solid rgba(255,0,0,.7);
+
+    box-shadow:
+    0 0 20px rgba(255,0,0,.6),
+    0 0 45px rgba(255,0,0,.3);
+
+    filter:
+    drop-shadow(0 0 20px red);
+
+    background:#0a0a0a;
+    padding:8px;
+}
+
+/* TITLE */
+h1{
+    font-size:32px;
+    font-weight:900;
+    text-shadow:0 0 20px red;
+}
+
+.desc{
+    margin-top:10px;
+    color:#d0d0d0;
+    font-size:14px;
+    margin-bottom:35px;
+}
+
+/* LINKS */
+.links{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+/* CARD BUTTON */
+.card{
+    background:
+    linear-gradient(
+    180deg,
+    rgba(18,18,18,.95),
+    rgba(8,8,8,.95)
+    );
+
+    border:2px solid rgba(255,0,0,.5);
+
+    border-radius:22px;
+    padding:20px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    text-decoration:none;
+    color:white;
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:
+    0 0 20px rgba(255,0,0,.2);
+
+    transition:.25s ease;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    border-color:red;
+
+    box-shadow:
+    0 0 35px rgba(255,0,0,.55);
+}
+
+/* LEFT */
+.left{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.left i{
+    width:55px;
+    height:55px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    background:#111;
+    color:red;
+    font-size:23px;
+
+    border:1px solid rgba(255,0,0,.5);
+
+    box-shadow:
+    0 0 15px rgba(255,0,0,.25);
+}
+
+.left span{
+    font-size:20px;
+    font-weight:700;
+}
+
+/* RIGHT ICON */
+.card .fa-chevron-right{
+    color:red;
+    font-size:22px;
+}
+
+/* FOOTER */
+footer{
+    margin-top:40px;
+    color:#888;
+    font-size:13px;
+}
+
+/* MOBILE */
+@media(max-width:500px){
+
+    h1{
+        font-size:26px;
+    }
+
+    .left span{
+        font-size:16px;
+    }
+
+    .card{
+        padding:18px;
+    }
+
+    .logo-box img{
+        width:150px;
+    }
+
+}
+/* RED MOON EFFECT */
+body::after{
+    content:'';
+    position:fixed;
+
+    width:280px;
+    height:280px;
+
+    background:
+    radial-gradient(circle,
+    rgba(255,0,0,.95) 0%,
+    rgba(140,0,0,.45) 45%,
+    transparent 75%);
+
+    border-radius:50%;
+
+    top:30px;
+    left:50%;
+    transform:translateX(-50%);
+
+    filter:blur(18px);
+    opacity:.35;
+
+    z-index:-3;
+}
+
+/* DARK OVERLAY */
+.container{
+    position:relative;
+    z-index:2;
+}
+
+/* TITLE PREMIUM */
+h1{
+    font-size:34px;
+    font-weight:900;
+    letter-spacing:1px;
+
+    background:
+    linear-gradient(to bottom,#fff,#ff3c3c);
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+    0 0 20px rgba(255,0,0,.45);
+}
+
+/* DESC */
+.desc{
+    letter-spacing:2px;
+    font-size:13px;
+    color:#bcbcbc;
+}
+
+/* BUTTON PREMIUM */
+.card{
+    position:relative;
+    overflow:hidden;
+}
+
+.card::before{
+    content:'';
+
+    position:absolute;
+    top:0;
+    left:-100%;
+
+    width:100%;
+    height:100%;
+
+    background:
+    linear-gradient(
+    90deg,
+    transparent,
+    rgba(255,255,255,.08),
+    transparent);
+
+    transition:.6s;
+}
+
+.card:hover::before{
+    left:100%;
+}
+
+/* SOCIAL ICON */
+.socials{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    margin-bottom:25px;
+}
+
+.socials a{
+    width:55px;
+    height:55px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    text-decoration:none;
+    color:#fff;
+
+    background:
+    rgba(12,12,12,.8);
+
+    border:
+    1px solid rgba(255,0,0,.4);
+
+    box-shadow:
+    0 0 18px rgba(255,0,0,.2);
+
+    transition:.3s ease;
+}
+
+.socials a:hover{
+    transform:translateY(-4px) scale(1.08);
+
+    box-shadow:
+    0 0 30px rgba(255,0,0,.55);
+
+    color:red;
+}
+
+.socials i{
+    font-size:22px;
+}
+
+/* LOGO ANIMATION */
+.logo-box img{
+    animation:
+    logoFloat 3s ease-in-out infinite;
+}
+
+@keyframes logoFloat{
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-8px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+}
+
+/* PARTICLE EFFECT */
+body::after{
+    animation:
+    moonMove 8s ease-in-out infinite;
+}
+
+@keyframes moonMove{
+    0%{
+        transform:
+        translateX(-50%)
+        scale(1);
+    }
+
+    50%{
+        transform:
+        translateX(-50%)
+        scale(1.08);
+    }
+
+    100%{
+        transform:
+        translateX(-50%)
+        scale(1);
+    }
+}
