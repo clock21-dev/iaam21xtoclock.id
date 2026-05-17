@@ -14,22 +14,12 @@ const CONFIG = {
     {
       icon: "fa-gamepad",
       title: "GRUB JUAL BELI COC 1",
-      url: "https://wa.me/628xxxxxxxxxx"
+      url: "https://chat.whatsapp.com/LwgcjBfWk3E3sirgkpXUGy"
     },
     {
       icon: "fa-gamepad",
       title: "GRUB JUAL BELI COC 2",
-      url: "https://wa.me/628xxxxxxxxxx"
-    },
-    {
-      icon: "fa-gamepad",
-      title: "GRUB JUAL BELI COC  3", 
-      url: "https://wa.me/628xxxxxxxxxx"
-    },
-    {
-      icon: "fa-gamepad",
-      title: "GRUB JUAL BELI COC 4",
-      url: "https://tiktok.com/@iaam21_toclock"
+      url: "https://chat.whatsapp.com/BfyRNh3VKlkBxMcrGU9oOs"
     },
     {
       icon: "fa-home",
