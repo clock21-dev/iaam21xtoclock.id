@@ -14,22 +14,22 @@ const CONFIG = {
     {
       icon: "fa-dragon",
       title: "GRUB MABAR MLBB",
-      url: "https://wa.me/628xxxxxxxxxx"
+      url: "https://chat.whatsapp.com/FQR5zMdgwee35Nt7VKvPUU"
     },
     {
       icon: "fa-dragon",
       title: "GRUB MABAR EFOOTBALL",
-      url: "https://wa.me/628xxxxxxxxxx"
+      url: "https://chat.whatsapp.com/FOjBWkXpfop7PjqU2pU3At"
     },
     {
       icon: "fa-dragon",
       title: "GRUB MABAR FREEFIRE", 
-      url: "https://wa.me/628xxxxxxxxxx"
+      url: "https://chat.whatsapp.com/FiMIupkqyIgEnA6MMZxhOp"
     },
     {
       icon: "fa-dragon",
-      title: "GRUB MABAR PUBG MOBILE",
-      url: "https://tiktok.com/@username"
+      title: "GRUB MABAR COC",
+      url: "https://chat.whatsapp.com/E8Zpc9Tddhu6R2yp5HvHdi"
     },
     {
       icon: "fa-home",
