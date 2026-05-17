@@ -14,22 +14,7 @@ const CONFIG = {
     {
       icon: "fa-gamepad",
       title: "GRUB JUAL BELI EFOOTBALL 1",
-      url: "https://wa.me/628xxxxxxxxxx"
-    },
-    {
-      icon: "fa-gamepad",
-      title: "GRUB JUAL BELI EFOOTBALL 2",
-      url: "https://wa.me/628xxxxxxxxxx"
-    },
-    {
-      icon: "fa-gamepad",
-      title: "GRUB JUAL BELI EFOOTBALL 3", 
-      url: "https://wa.me/628xxxxxxxxxx"
-    },
-    {
-      icon: "fa-gamepad",
-      title: "GRUB JUAL BELI EFOOTBALL 4",
-      url: "https://tiktok.com/@iaam21_toclock"
+      url: "https://chat.whatsapp.com/Jkrqz102IA8Kv2yl16S9ig"
     },
     {
       icon: "fa-home",
