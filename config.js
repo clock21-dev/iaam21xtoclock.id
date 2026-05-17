@@ -33,8 +33,8 @@ const CONFIG = {
     },
     {
       icon: "fa-brands fa-whatsapp",
-      title: "SALURAN WA LELANG AKUN",
-      url: "https://whatsapp.com/channel/0029Vb6Gpnm9hXFFfu8gXd3y"
+      title: "SALURAN WA STOK KU & TESTI",
+      url: "https://whatsapp.com/channel/0029Vb6wKUfHgZWW6sj5mf3L"
     },
     {
       icon: "fa-globe",
