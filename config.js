@@ -29,7 +29,7 @@ const CONFIG = {
     {
       icon: "fa-brands fa-tiktok",
       title: "TIKTOK ATMIN",
-      url: "https://tiktok.com/@iaam21_toclock"
+      url: "https://www.tiktok.com/@anaknihon?_r=1&_t=ZS-96RH5nMbJf3"
     },
     {
       icon: "fa-brands fa-whatsapp",
