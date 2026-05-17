@@ -23,7 +23,7 @@ const CONFIG = {
     },
     {
       icon: "fa-gamepad",
-      title: "GRUB JUAL BELI FREEFIRE", 
+      title: "GRUB JUAL BELI FREEFIRE (BELUM TERSEDIA)", 
       url: "freefire/freefire.html"
     },
     {
@@ -33,7 +33,7 @@ const CONFIG = {
     },
     {
       icon: "fa-gamepad",
-      title: "GRUB JUAL BELI ALL GAMES",
+      title: "GRUB JUAL BELI ALL GAMES (BELUM TERSEDIA)",
       url: "allgames/allgames.html"
     },
     {
