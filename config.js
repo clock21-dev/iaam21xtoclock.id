@@ -5,9 +5,9 @@ const CONFIG = {
 
   socials: {
     whatsapp: "https://wa.me/6281313197716",
-    tiktok: "https://tiktok.com/@iaam21_toclock",
-    instagram: "https://instagram.com/iaam21_",
-    telegram: "https://t.me/TocClock"
+    tiktok: "https://www.tiktok.com/@anaknihon?_r=1&_t=ZS-96RH5nMbJf3",
+    instagram: "https://www.instagram.com/toclock.id_x_iaam21?igsh=bDVmYWdlOWUxdTVy",
+    telegram: "https://t.me/iaam21_store_x_toclockid"
   },
 
   links: [
