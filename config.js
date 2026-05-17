@@ -40,7 +40,7 @@ const CONFIG = {
       icon: "fa-globe",
       title: "ORDER WEB",
       url: "https://wa.me/6281927572561"
-    }
+    },
     {
       icon: "fa-star",
       title: "TESTIMONI BUYER",
